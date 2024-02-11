@@ -250,6 +250,13 @@
 }
 
 @font-face {
+    font-family: 'Founders-SemiBold';
+    src: url(/css/fonts/extra/FoundersGrotesk-Semibold.woff);
+}
+
+/* ============================================= */
+
+@font-face {
     font-family: 'Montreal-Bold';
     src: url(/css/fonts/Neue_Montreal/NeueMontreal-Bold.otf);
 }
@@ -267,11 +274,6 @@
 @font-face {
     font-family: 'Montreal-Regular';
     src: url(/css/fonts/Neue_Montreal/NeueMontreal-Regular.otf);
-}
-
-@font-face {
-    font-family: 'ProductSans-Medium';
-    src: url(/css/fonts/ProductSans-Medium.ttf);
 }
 
 img{max-width:100%;}
@@ -322,26 +324,38 @@ body{
     /* width: 100%; */
     max-width: 100%;
     margin: 0px auto;
+    padding: 0px 50px;
 }
 
 /* ***************************************************************************************************** */
+/* .nav-blur
+{
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: space-between;
+} */
+
 .nav {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(5px);
 }
 
 .nav-header {
     flex: 0.95;
-    padding-left: 1rem;
 }
 
 .nav-title {
     font-size: 20px;
     color: #000;
-    /* margin-left: 40px; */
+    padding-left: 50px;
     font-family: 'ProductSans-Medium';
 }
 
@@ -355,7 +369,12 @@ body{
 {
     display: flex;
     gap: 30px;
-    margin-right: 300px;
+    margin-right: 250px;
+}
+
+.nav-contact
+{
+    padding-right: 0px;
 }
 
 .nav-list li {
@@ -376,5 +395,157 @@ body{
 #nav-check {
     display: none;
 }
+
+/* ********************************************************************************************* */
+
+.banner-heading
+{
+    height: 500px;
+    background: #f1f1f1;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.banner-heading h1
+{
+    width: 400px;
+    font-size: 90px;
+    font-family: 'Founders-SemiBold';
+    letter-spacing: 0px;
+    line-height: 80px;
+}
+
+/* ********************************************************************************************* */
+
+.project-bg
+{
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.project-heading h2
+{
+    color: #000;
+    font-size: 52px;
+    font-family: 'Montreal-Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
