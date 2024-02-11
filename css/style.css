@@ -219,6 +219,61 @@
     font-display:swap;
 }
 
+@font-face {
+    font-family: 'Founders-Bold';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGrotesk-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Founders-Light';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGrotesk-Light.otf);
+}
+
+@font-face {
+    font-family: 'Founders-Medium';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Founders-Regular';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Founders-SemiBold';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGrotesk-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Founders-XCond-Bold';
+    src: url(/css/fonts/Founders_Grotesk/FoundersGroteskXCond-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Montreal-Bold';
+    src: url(/css/fonts/Neue_Montreal/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Montreal-Light';
+    src: url(/css/fonts/Neue_Montreal/NeueMontreal-Light.otf);
+}
+
+@font-face {
+    font-family: 'Montreal-Medium';
+    src: url(/css/fonts/Neue_Montreal/NeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Montreal-Regular';
+    src: url(/css/fonts/Neue_Montreal/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: 'ProductSans-Medium';
+    src: url(/css/fonts/ProductSans-Medium.ttf);
+}
+
 img{max-width:100%;}
 input.text,
 input[type="text"],
@@ -249,7 +304,10 @@ abbr[title] {
     text-decoration: none !important;
 }
 body{
-    font-family: 'Poppins-Regular';
+    /* font-family: 'Poppins-Regular'; */
+    color: #000;
+    background: #f1f1f1;
+    font-family: 'Montreal-Regular';
 }
 .p_0{
     padding: 0px;
@@ -261,19 +319,18 @@ body{
     width: 100%;
 }
 .container{
-    width: 100%;
-    max-width: 1170px;
+    /* width: 100%; */
+    max-width: 100%;
     margin: 0px auto;
 }
 
 /* ***************************************************************************************************** */
 .nav {
     width: 100%;
-    background-color: #fff;
     display: flex;
     align-items: center;
+    margin-top: 10px;
     margin-bottom: 15px;
-    font-family: 'Nunito-Regular';
 }
 
 .nav-header {
@@ -282,20 +339,23 @@ body{
 }
 
 .nav-title {
-    font-size: 22px;
-    color: #fff;
-}
-
-.nav-title img {
-    width: 50px;
-    padding: 15px 0px;
+    font-size: 20px;
+    color: #000;
+    /* margin-left: 40px; */
+    font-family: 'ProductSans-Medium';
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
     text-align: center;
-    margin-top: 15px;
+}
+
+.nav-center
+{
+    display: flex;
+    gap: 30px;
+    margin-right: 300px;
 }
 
 .nav-list li {
@@ -305,18 +365,16 @@ body{
 
 .nav-list a {
     text-decoration: none;
-    color: #000;
+    color: #2e2e2e;
     cursor: pointer;
     justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Montreal-Regular';
+    letter-spacing: 0.3px;
 }
 
 #nav-check {
     display: none;
 }
 
-.nav-menu.active {
-    border-bottom: 5px solid #4FAEAA;
-    padding-bottom: 10px;
-    transition: none;
-}
 
