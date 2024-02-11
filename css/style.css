@@ -404,6 +404,7 @@ body{
     background: #f1f1f1;
     background-attachment: fixed;
     padding-top: 70px;
+    padding: 0 50px;
 }
 
 .banner-heading h1
@@ -433,12 +434,23 @@ body{
     color: #000;
     font-size: 52px;
     font-family: 'Montreal-Regular';
+    border-bottom: 2px solid #B2B2B2;
+    padding: 0 50px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 
+.project-card-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
 
-
-
-
+.project-card-img img
+{
+    border-radius: 10px;
+}
 
 
 
