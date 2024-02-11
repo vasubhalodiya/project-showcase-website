@@ -266,4 +266,57 @@ body{
     margin: 0px auto;
 }
 
+/* ***************************************************************************************************** */
+.nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Nunito-Regular';
+}
+
+.nav-header {
+    flex: 0.95;
+    padding-left: 1rem;
+}
+
+.nav-title {
+    font-size: 22px;
+    color: #fff;
+}
+
+.nav-title img {
+    width: 50px;
+    padding: 15px 0px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav-list li {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#nav-check {
+    display: none;
+}
+
+.nav-menu.active {
+    border-bottom: 5px solid #4FAEAA;
+    padding-bottom: 10px;
+    transition: none;
+}
 
